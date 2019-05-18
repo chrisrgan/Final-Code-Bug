@@ -1,6 +1,6 @@
 class CodeBug {
   public static void main(String[] args) {
-	int[] arr = new int[]{1,2,3,4,5,6,7,8,9,10};
+	int[] arr = new int[]{4,6,22,8,64,2,32,5,12,10};
     int N = arr.length; //N = 10
     int minLocation=arr.length-1;
     double min = arr[arr.length -1];
