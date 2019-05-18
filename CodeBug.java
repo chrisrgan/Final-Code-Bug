@@ -30,4 +30,5 @@ class CodeBug {
 //I added line 6 because I wanted to initialize the min value as anything within the array, it didn't matter. This is because
      //during line 8 there will be a for loop to check each element in the array to see if that really is the minimum value.
      //If not, the minimum value that is found in the loop will be put into the variable min. If the element that is smallest
-     //ends up being the one in which I assigned, I changed minLocation to match the same element location.
+     //ends up being the one in which I assigned, I changed minLocation to match the same element location (minLocation = arr.
+     //length-1)
